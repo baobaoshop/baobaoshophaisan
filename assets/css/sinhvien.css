@@ -1,0 +1,90 @@
+.sinhvien__info {
+    background-color: #caebf6;
+    padding: 40px 40px 0;
+    display: flex;
+}
+.sinhvien__info-main {
+    width: 50%;
+    background-color: #048ABF;
+    color: #F2AE30;
+    padding: 20px;
+}
+.main-title {
+    text-align: center;
+}
+.main__content {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+.main__content-img {
+    width: 130px;
+    height: 180px;
+    border-radius: 20px;
+}
+.sinhvien__motaduan {
+    width: 50%;
+    background-color: #9CF29D;
+    color: #098923;
+    padding: 20px;
+}
+.sinhvien_mota-title {
+    margin-left: 10px;
+}
+.sinhvien__mota-content {
+    display: flex;
+}
+.mota-imt {
+    width: 150px;
+    height: 150px;
+}
+.mota-content {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.btn-like {
+    background-color: #F2AE30;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 5px 20px;
+}
+.btn-cafe {
+    color: #000;
+    background-color: #F2AE30;
+    border: 1px solid #098923;
+    padding: 6px 20px;
+    height: 36px;
+}
+.duan-info-area {
+    background-color: #caebf6;
+    padding-bottom: 40px;
+}
+.duan-info {
+    background-color: #DEB3F2;
+    color: #660273;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 40px;
+    padding: 20px;
+}
+.duan-content {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+.duan-list {
+    margin-left: 50px;
+    color: #0012b6;
+}
+.duan-name {
+    font-size: 20px;
+    color: #007517;
+}
+.duan-name + p {
+    color: #007517;
+}
+#section {
+    padding-top: 165px;
+}

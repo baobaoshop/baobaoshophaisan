@@ -1,0 +1,424 @@
+/*PC*/
+@media (min-width: 1024px) {
+    
+}
+
+/*tablet*/
+@media (max-width: 1190px) {
+    .header__hotline-area {
+        flex-direction: column;
+    }
+    .header__hotline-link {
+        font-size: 18px;
+    }
+    .header__hotline-img {
+        height: 30px;
+    }
+    .header__nav-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__nav-link img {
+        height: 30px;
+        width: 30px;
+    }
+    .header__nav-link span {
+        font-size: 14px;
+    }
+    .flashsale__card-title {
+        font-size: 16px;
+    }
+    .bestsold__card-title {
+        font-size: 16px;
+    }
+    .bestsold__btn-buy {
+        position: absolute;
+        bottom: 0;
+        right:0;
+        font-size: 14px;
+    }
+    .bestsold__card-price {
+        margin-bottom: 20px;
+    }
+    .bestsold__card {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .bestsold__img-border-bestsold {
+        width: 100px;
+    }
+    .suggestion__card-title {
+        font-size: 16px;
+    }
+    .suggestion__btn-buy {
+        position: absolute;
+        bottom: 0;
+        right:0;
+        font-size: 14px;
+    }
+    .suggestion__card-price {
+        margin-bottom: 20px;
+    }
+    .suggestion__card {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .suggestion__img-border-suggestion {
+        width: 100px;
+    }
+    .footer__logo-link {
+        width: 200px;
+    }
+    .flashsale__btn-buy {
+        font-size: 16px;
+    }
+    .flashsale__title-link {
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+    .flashsale__title-left a {
+        font-size: 14px;
+    }
+    .flashsale__celltime {
+        width: 30px;
+        height: 40px;
+    }
+    .flashsale__number {
+        font-size: 16px;
+        line-height: 20px;
+        height: 20px;
+    }
+    .flashsale__unit {
+        font-size: 10px;
+    }
+    .flashsale__title-left img {
+        height: 30px;
+    }
+    .sinhvien__mota-content,
+    .main__content {
+        display: block;
+        text-align: center;
+    }
+    .menu__item img {
+        height: 30px;
+        width: 30px;
+    }
+    .menu__item span {
+        line-height: 50px;
+    }
+    .giohang-right {
+        min-width: 320px;
+    }
+    .ndhethong {
+        display: block;
+    }
+    .hethong__left {
+        width: 500px;
+        margin: auto;
+    }
+    .hethong__right {
+        width: 600px;
+        margin: auto;
+    }
+    .cardhethong {
+        width: 500px;
+    }
+    .container-one,
+    .tuvandathang__main,
+    .thuonghieu__item {
+        display: block;
+    }
+    .one-sub {
+        width: 100%;
+    }
+    .one-sub__tuvandathang,
+    .one-sub__thuonghieu {
+        text-align: center;
+    }
+    .one-sub__lienquan {
+        justify-content: space-between;
+    }
+    .one-sub__lienquan h3 {
+        margin-left: 30px;
+    }
+    .one-sub__sanpham a div,
+    .one-sub__sanpham div {
+        max-width: 300px;
+    }
+    .one-sub__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+    .one-sub__list li {
+        width: 300px;
+    }
+}
+@media  (min-width: 740px) and (max-width: 1020px) {
+    .flashsale__btn-buy {
+        font-size: 14px;
+        padding: 3px 1px;
+        text-transform: capitalize;
+    }
+    .navpc,
+    .header__hotline-area {
+        display: none;
+    }
+    .suggestion__card,
+    .bestsold__card {
+        width: 30%;
+    }
+    .blog__item-title {
+        font-size: 14px;
+    }
+    .blog__item {
+        width: 95%;
+    }
+    .footer__logo-mb {
+        display: flex;
+        width: 100%;
+        background-color: #c5c5c5;
+    }
+    .footer__logo-mb img {
+        width: 200px;
+        margin: auto;
+    }
+    .footer__logo-link {
+        display: none;
+    }
+    .menu__list {
+        font-size: 16px;
+        min-width: 540px;
+    }
+    .giohang-left,
+    .giohang-title {
+        padding-left: 30px;
+    }
+    .giohang-right {
+        min-width: 300px;
+    }
+}
+@media  (min-width: 941px) and (max-width: 1020px) {
+    .giohang-left,
+    .giohang-title {
+        padding-left: 30px;
+    }
+    .giohang-right {
+        min-width: 300px;
+    }
+}
+@media  (min-width: 740px) and (max-width: 940px) {
+    .giohang {
+        display: block;
+        width: 500px;
+        margin: auto;
+        border: 1px solid #c5c5c5;
+        border-radius: 10px;
+        background-color: #a7d8ef;
+        padding: 20px;
+    }
+    .giohang-title {
+        text-align: center;
+    }
+    .giohang-right {
+        margin: auto;
+        margin-top: 50px;
+        background-color: #fff;
+    }
+}
+/*Mobile*/
+@media (max-width: 739px) {
+    .header__search-area,
+    .header__hotline-area,
+    .header__user-cart-area,
+    .header__nav,
+    .header__logo-main,
+    .slideshow3,
+    .blog__main,
+    .containner__main {
+        display: none;
+    }
+    #header {
+        height: 70px;
+    }
+    .header__main {
+        padding: 20px;
+        height: 70px;
+    }
+    .header__logo-area {
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer__main,
+    .header__mobile-menu {
+        display: block;
+    }
+    .header__mobile-menu img {
+        height: 30px;
+    }
+    .header__mobile-cart {
+        display: block;
+    }
+    .header__mobile-cart img {
+        height: 30px;
+    }
+    .header__logo-img--mb {
+        display: block;
+        height: 50px;
+    }
+    .header__container {
+        display: block;
+    }
+    .flashsale__title-left,
+    .container__main--mb {
+        display: block;
+    }
+    .flashsale__title-link,
+    .flashsale__finish {
+        display: none;
+    }
+    .flashsale__title-link--mb {
+        background-color: #fff;
+        display: block;
+        border-radius: 100%;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+    }
+    .slideshow3--mb {
+        display: block;
+    }
+    .flashsale__card-title {
+        font-size: 12px;
+    }
+    .flashsale__card-price {
+        font-size: 14px;
+    }
+    .bestsold__card-title,
+    .bestsold__btn-buy,
+    .bestsold__slider,
+    .suggestion__card-title,
+    .suggestion__btn-buy,
+    .suggestion__slider,
+    .flashsale__btn-buy {
+        font-size: 12px;
+    }
+    .bestsold__card-price,
+    .bestsold__title-left a {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .bestsold__title-link {
+        font-size: 12px;
+    }
+    .suggestion__card,
+    .bestsold__card {
+        width: 48%;
+    }
+    #container {
+        padding-top: 70px;
+    }
+    .header__mobile-menu:hover .header__nav-list-mb{
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 300px;
+    }
+    #section {
+        padding-top: 70px;
+    }
+    .footer__logo-mb {
+        display: flex;
+        width: 100%;
+        background-color: #c5c5c5;
+    }
+    .footer__logo-mb img {
+        width: 200px;
+        margin: auto;
+    }
+    .footer__logo-link {
+        display: none;
+    }
+    .container-one {
+        display: block;
+    }
+    .container-one {
+        padding-top: 70px;
+    }
+    .one-product {
+        width: 100%;
+    }
+    .menu__list {
+        font-size: 12px;
+        min-width: 350px;
+    }
+    .menu__item img {
+        height: 18px;
+        width: 18px;
+    }
+    .menu__list-danhmuc {
+        padding: 0 7px;
+    }
+    .giohang {
+        display: block;
+        width: 90%;
+        margin: auto;
+        border: 1px solid #c5c5c5;
+        border-radius: 10px;
+        background-color: #a7d8ef;
+        padding: 10px;
+    }
+    .giohang-title {
+        text-align: center;
+        padding: 0;
+    }
+    .giohang-left {
+        padding: 10px;
+    }
+    .giohang-right {
+        width: 90%;
+        min-width: 0;
+        margin: auto;
+        margin-top: 50px;
+        background-color: #fff;
+    }
+    .giohang-left__item,
+    .slideshow3-doitac {
+        display: block;
+    }
+    .blog__item-title {
+        font-size: 10px;
+    }
+    .footer__logo-mb {
+    padding: 20px 0;
+    }
+    .hethong__right {
+        width: 90%;
+    }
+    .hethong__right iframe {
+        width: 100%;
+    }
+    .duan-content,
+    .hethong__left {
+        width: 100%;
+    }
+    .image-slider, .image-slider2,
+    .sinhvien__info-main,
+    .sinhvien__motaduan,
+    .cardhethong {
+        width: 100%;
+    }
+    .doitac__link img {
+        height: 20px;
+    }
+    .one-product,
+    .sinhvien__info {
+        display: block;
+    }
+    .tensanpham {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #2D9ED5;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+::selection {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    background-color: #caebf6;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+    cursor: pointer;
+}
+a:hover {
+    opacity: 0.9;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.fz16 {
+    font-size: 16px !important;
+}
+.h50 {
+    height: 50px !important;
+}
+.lh36 {
+    line-height: 36px;
+}
+
+.breadcum-area {
+    height: 40px;
+    background-color: #dddddd;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.preloader-area {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    background-color: #b3e9e5;
+}
+.ani-area {
+    width: 100px;
+    height: 100px;
+    /* background-color: #f288e7; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+}
+.ani-area div {
+    position: absolute;
+    border: 4px solid #2D9ED5;
+    opacity: 1;
+    border-radius: 50%;
+    animation: ani-area 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.ani-area div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+@keyframes ani-area {
+  0% {
+    top: 50px;
+    left: 50px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+@keyframes headerNotifyGrowth {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,195 @@
+.giohang-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    padding-left: 100px;
+}
+.giohang {
+    display: flex;
+}
+.giohang-left {
+    flex: 1;
+    padding-left: 100px;
+}
+.left-ship {
+    display: flex;
+}
+.left-ship__img {
+    height: 50px;
+}
+.left-ship__title {
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+.giohang-left__item {
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    display: flex;
+    margin: 10px;
+}
+.left-img {
+    height: 100px;
+    margin-right: 10px;
+}
+.left-content {
+    font-size: 16px;
+}
+.left__tensanpham {
+    font-size: 18px;
+    font-weight: 600;
+}
+.left__price {
+    display: block;
+    margin: 5px;
+}
+.left__soluong {
+    display: flex;
+    width: 150px;
+}
+.left__soluong {
+    border-radius: 5px;
+    border: 1px solid #EDEDED;
+    background-color: #2a50c2;
+    color: var(--white-color);
+}
+#soluong,
+#soluong1,
+#soluong2,
+#soluong3 {
+    margin: 0 20px;
+}
+.btnsp,
+.btnsp1,
+.btnsp2,
+.btnsp3 {
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+}
+.btnsp.decrease,
+.btnsp1.decrease,
+.btnsp2.decrease,
+.btnsp3.decrease {
+    border-right: 1px solid #EDEDED;
+}
+.btnsp.increase,
+.btnsp1.increase,
+.btnsp2.increase,
+.btnsp3.increase {
+    border-left: 1px solid #EDEDED;
+}
+.giohang-right {
+    width: 30%;
+    border: 1px solid #EDEDED;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a1cff5;
+}
+.right-titleCanhbao {
+    color: #FF0000;
+    font-size: 14px;
+}
+.right-titleChontime {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.right-titleGhichu {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.right-titleTongtien {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    margin: 20px 0;
+}
+.right-titleTongtien__tit {
+    font-size: 18px;
+    color: #5C5C5C;
+    padding: 10px 0;
+}
+.right-titleTongtien__gia {
+    font-size: 20px;
+    color: #FF0000;
+    padding: 10px 0;
+    font-weight: 700;
+}
+.dathang {
+    background-color: #FF6600;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-text,
+.accordion-button,
+.accordion-body {
+    font-size: 16px;
+}
+.feedbackk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card.mb-3 {
+    width: 400px;
+    margin: 10px;
+}
+.hethongtitle {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 40px 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.ndhethong {
+    display: flex;
+}
+.hethong__left {
+    width: 50%;
+}
+.hethong__right {
+    width: 50%;
+}
+.cardhethong {
+    margin: 10px;
+}
+.tenhethong {
+    font-size: 20px;
+}
+.diachihethong {
+    font-size: 16px;
+}
+.td-title {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 20px 0 20px;
+    border-bottom: 1px solid #2a50c2;
+}
+.td-nd {
+    font-size: 16px;
+    line-height: 30px;
+}
+.khutuyendung {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vitritd {
+    width: 400px;
+    margin: 20px;
+}
+.tuyendungnavduoi {
+    width: 100px;
+    margin: auto;
+}

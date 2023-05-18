@@ -1,0 +1,71 @@
+
+
+.form-register {
+    width: 400px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.form-register__title {
+    text-align: center;
+}
+.register-email {
+    margin: 10px auto;
+    width: 100%;
+}
+.register-email-btn {
+    width: 100%;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+}
+.form-register__subtitle {
+    text-align: center;
+}
+.form-register__subtitle a {
+    color: var(--primary-color);
+}
+.doitac__link img {
+    height: 50px;
+}
+.line {
+    height: 0;
+    width: 100%;
+    border: .5px solid var(--primary-color);
+    margin: 20px 0;
+}
+.orther-signin__title {
+    text-align: center;
+    font-size: 16px;
+}
+.orther-signin__social {
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;   
+    margin: 10px auto; 
+}
+.social-logo {
+    height: 40px;
+}
+.return {
+    margin: 10px 0;
+}
+.return-title {
+    text-align: center;
+}
+
+.form-floating>.form-control {
+    padding: 1rem 0.75rem;
+}
+
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 2.625rem;
+    padding-bottom: 0.625rem;
+}
+.form-floating>label {
+    line-height: 50px;
+    font-size: 16px;
+    padding: 0 10px !important;
+}

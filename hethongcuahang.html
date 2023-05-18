@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAOBAOSHOP</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="icon" href="./assets/img/hufi.png">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+</head>
+<body oncontextmenu="return false;">
+    <div class="preloader-area">
+        <div class="ani-area">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="header__main">
+            <div class="header__container">
+                <div class="header__logo-area">
+                    <div class="header__mobile-menu">
+                        <img src="https://file.hstatic.net/1000030244/file/menu_01-02_637811aeb1d54ae2a612bc4bdb621522.png" alt="This is a picture of menu symbol">
+                        <ul class="header__nav-list-mb dropdown-menu">
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-08_b334d328e22b4a65805bb434f3a1b148.png" alt="" width="20px" height="20px">
+                                <span>TẤT CẢ SẢN PHẨM</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./chinhsach.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-08_b334d328e22b4a65805bb434f3a1b148.png" alt="" width="20px" height="20px">
+                                <span>CHÍNH SÁCH</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./hethongcuahang.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-08_b334d328e22b4a65805bb434f3a1b148.png" alt="" width="20px" height="20px">
+                                <span>HỆ THỐNG CỬA HÀNG</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./aboutus.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-08_b334d328e22b4a65805bb434f3a1b148.png" alt="" width="20px" height="20px">
+                                <span>THÔNG TIN SINH VIÊN</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-08_b334d328e22b4a65805bb434f3a1b148.png" alt="" width="20px" height="20px">
+                                <span>BÁN CHẠY NHẤT</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/sale-01-02_46421e90f6ef4755b5bdfa3da8f21e3b.png" alt="" width="20px" height="20px">
+                                <span>KHUYẾN MÃI</span>
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-19_b930026af62b427080fa76b8f9f37c82.png" alt="" width="20px" height="20px">
+                                <span>Cá Hồi</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-12_7c3e9adde67340c8afc81a50cf436da3.png" alt="" width="20px" height="20px">
+                                <span>Ngao, Sò, Ốc</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-13_82965483df694fba920f852cae02d35e.png" alt="" width="20px" height="20px">
+                                <span>Cua, Ghẹ</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-14_226abb4bfbcf4247b3b9dbc1af07b31f.png" alt="" width="20px" height="20px">
+                                <span>Tôm Các Loại</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-15_ddec0f58f3204735a177f0018a3e3553.png" alt="" width="20px" height="20px">
+                                <span>Cá</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-16_7a27668ddf0e4aa8bb88bf2e665295d2.png" alt="" width="20px" height="20px">
+                                <span>Mực</span>
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/tuoi_song_2c1a154223c740c289c5f6c708cc20be.png" alt="" width="20px" height="20px">
+                                <span>100% Tươi Sống</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-11_41a56a572b374f679246984b7e0a16eb.png" alt="" width="20px" height="20px">
+                                <span>Sushi & Sashimi Deli</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/dong_lanh_745fd86a7d5b469aa93903a836ac8452.png" alt="" width="20px" height="20px">
+                                <span>Hải Sản Đông Lạnh</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/icon-18_5e5a5dbb4e95410d9533ae2e1a83f3e4.png" alt="" width="20px" height="20px">
+                                <span>Hải Sản Nhập Khẩu</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/to_eat_1__6cf2ddbbd16e4fc6926f64436e070eed.png" alt="" width="20px" height="20px">
+                                <span>Ready To Eat/Cook</span>
+                            </a></li>
+                            <li><a class="dropdown-item" href="./all-production.html">
+                                <img src="https://file.hstatic.net/1000030244/file/sot_b9bbd364c04444539999c4ac2241e1c6.png" alt="" width="20px" height="20px">
+                                <span>Gia Vị & Sốt</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="header__logo-main">
+                        <a href="./index.html">
+                            <img src="./assets/img/baobaosystem.png" alt="This is a picture if BaoBaoSystem" class="header__logo-img">
+                        </a>
+                    </div>
+                    <img src="./assets/img/baobaosystem.png" alt="This is a picture if BaoBaoSystem" class="header__logo-img--mb">
+                    <div class="header__mobile-cart">
+                        <a href="./cart.html">
+                            <img src="https://theme.hstatic.net/1000030244/1000943806/14/cart.png?v=5426" alt="This is a picture of cart symbol">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__search-area">
+                    <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+                    <input type="text" class="header__search-main" placeholder="Tìm kiếm trên BAOBAOSHOP">
+                </div>
+                <div class="header__hotline-area">
+                    <div class="header__hotline-number">
+                        <a href="tel:19000098" class="header__hotline-link">1900 0098</a>
+                        <p>(8h-21h từ T2-Chủ Nhật)</p>
+                    </div>
+                    <div class="header__hotline-shipping">
+                        <img src="https://file.hstatic.net/1000030244/file/giaohang2h_6984c4a90861405ab3c35f77edb41578.png" alt="This is a picture of GiaoHangNhanhTrong2h" class="header__hotline-img">
+                    </div>
+                </div>
+                <div class="header__user-cart-area">
+                    <div class="header__user">
+                        <i class="fa-solid fa-user header__user-icon"></i>
+                        <div class="header__user-text">
+                            <span>Đăng nhập</span>
+                            <span>Đăng ký</span>
+                        </div>
+                        <div class="header__user-list">
+                            <ul>
+                                <li>
+                                    <a href="./signin.html" class="header__user-list-item">Đăng nhập</a>
+                                </li>
+                                <li>
+                                    <a href="./register.html" class="header__user-list-item">Đăng ký</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                        <a href="./cart.html">
+                            <img src="https://theme.hstatic.net/1000030244/1000943806/14/cart.png?v=5426" alt="This is a picture of cart symbol">
+                            <span class="header__cart-count">3</span>
+                        </a>
+                        <div class="header__cart-box">
+                            <header class="header__cart-header">
+                                <h3>Giỏ hàng của bạn</h3>
+                                <hr>
+                            </header>
+                            <ul class="header__cart-list">
+                                <li class="header__cart-item">
+                                    <a href="./one-production.html" class="header__cart-link">
+                                        <img src="./assets/img/hufi.png" alt="This is a picture of product" class="header__cart-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-name">Cá Koi Tươi Sống HUFI</div>
+                                            <div class="header__cart-price">550.000đ</div>
+                                        </div>
+                                    </a>
+                                    <a href="./one-production.html" class="header__cart-link">
+                                        <img src="./assets/img/hufi.png" alt="This is a picture of product" class="header__cart-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-name">Cá Khô Một Nắng HUFI</div>
+                                            <div class="header__cart-price">499.000đ</div>
+                                        </div>
+                                    </a>
+                                    <a href="./one-production.html" class="header__cart-link">
+                                        <img src="./assets/img/hufi.png" alt="This is a picture of product" class="header__cart-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-name">Tôm Hùm ALASKA in HUFI</div>
+                                            <div class="header__cart-price">890.000đ</div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <footer class="header__cart-footer">
+                                <hr>
+                                <a href="./cart.html" class="header__cart-footer-btn">Xem giỏ hàng</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav">
+            <ul class="header__nav-main nav nav-tabs">
+                <li class="header__nav-item nav-item">
+                    <a class="header__nav-link nav-link" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="header__nav-item nav-item dropdown">
+                    <a class="header__nav-link nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">DANH MỤC</a>
+                    <ul class="header__nav-list dropdown-menu">
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-08_b334d328e22b4a65805bb434f3a1b148.png" alt="" width="20px" height="20px">
+                            <span>BÁN CHẠY NHẤT</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/sale-01-02_46421e90f6ef4755b5bdfa3da8f21e3b.png" alt="" width="20px" height="20px">
+                            <span>KHUYẾN MÃI</span>
+                        </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-19_b930026af62b427080fa76b8f9f37c82.png" alt="" width="20px" height="20px">
+                            <span>Cá Hồi</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-12_7c3e9adde67340c8afc81a50cf436da3.png" alt="" width="20px" height="20px">
+                            <span>Ngao, Sò, Ốc</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-13_82965483df694fba920f852cae02d35e.png" alt="" width="20px" height="20px">
+                            <span>Cua, Ghẹ</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-14_226abb4bfbcf4247b3b9dbc1af07b31f.png" alt="" width="20px" height="20px">
+                            <span>Tôm Các Loại</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-15_ddec0f58f3204735a177f0018a3e3553.png" alt="" width="20px" height="20px">
+                            <span>Cá</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-16_7a27668ddf0e4aa8bb88bf2e665295d2.png" alt="" width="20px" height="20px">
+                            <span>Mực</span>
+                        </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/tuoi_song_2c1a154223c740c289c5f6c708cc20be.png" alt="" width="20px" height="20px">
+                            <span>100% Tươi Sống</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-11_41a56a572b374f679246984b7e0a16eb.png" alt="" width="20px" height="20px">
+                            <span>Sushi & Sashimi Deli</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/dong_lanh_745fd86a7d5b469aa93903a836ac8452.png" alt="" width="20px" height="20px">
+                            <span>Hải Sản Đông Lạnh</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/icon-18_5e5a5dbb4e95410d9533ae2e1a83f3e4.png" alt="" width="20px" height="20px">
+                            <span>Hải Sản Nhập Khẩu</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/to_eat_1__6cf2ddbbd16e4fc6926f64436e070eed.png" alt="" width="20px" height="20px">
+                            <span>Ready To Eat/Cook</span>
+                        </a></li>
+                        <li><a class="dropdown-item" href="./all-production.html">
+                            <img src="https://file.hstatic.net/1000030244/file/sot_b9bbd364c04444539999c4ac2241e1c6.png" alt="" width="20px" height="20px">
+                            <span>Gia Vị & Sốt</span>
+                        </a></li>
+                    </ul>
+                </li>
+                <li class="header__nav-item nav-item">
+                    <a class="header__nav-link nav-link" href="./all-production.html">
+                        <img src="https://theme.hstatic.net/1000030244/1000943806/14/service_3.png?v=5565" alt="">
+                        <span>TẤT CẢ SẢN PHẨM</span>
+                    </a>
+                </li>
+                <li class="header__nav-item nav-item">
+                    <a class="header__nav-link nav-link navpc" href="./chinhsach.html">
+                        <img src="https://theme.hstatic.net/1000030244/1000943806/14/service_2.png?v=5565" alt="">
+                        <span>GIAO HÀNG TỪ 150.000Đ</span>
+                    </a>
+                </li>
+                <li class="header__nav-item nav-item">
+                    <a class="header__nav-link nav-link navpc active" href="./hethongcuahang.html">
+                        <img src="https://theme.hstatic.net/1000030244/1000943806/14/service_3.png?v=5565" alt="">
+                        <span>HỆ THỐNG CỬA HÀNG</span>
+                    </a>
+                </li>
+                
+                <li class="header__nav-item nav-item">
+                    <a class="header__nav-link nav-link" href="./aboutus.html">
+                        <img src="	https://theme.hstatic.net/1000030244/1000943806/14/service_1.png?v=5565" alt="">
+                        <span>THÔNG TIN SINH VIÊN</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="breadcum-area">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Khách hàng phản hồi</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="hethongtitle">cửa hàng / siêu thị</div>
+        <div class="ndhethong">
+            <div class="hethong__left">
+                <div class="card cardhethong">
+                    <div class="card-header tenhethong">
+                      <i class="fa-solid fa-location-dot"></i>  Cửa Hàng Tân Mỹ Quận 7 (7H-20H30; T2 - CN)
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0 diachihethong">
+                        <p>02 Tân Mỹ, P Tân Phú, Quận 7, TPHCM.</p>
+                        <footer class="blockquote-footer"><i class="fa-solid fa-phone"></i> Hotline  <cite title="Source Title">19000098</cite></footer>
+                      </blockquote>
+                    </div>
+                </div>
+                <div class="card cardhethong">
+                    <div class="card-header tenhethong">
+                      <i class="fa-solid fa-location-dot"></i> Cửa Hàng Nguyễn Sỹ Sách, Tân Bình (7H-20H30; T2 - CN)
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0 diachihethong">
+                        <p>A9 Nguyễn Sỹ Sách, P.15, Tân Bình, TPHCM (Đối diện CC Ruby Garden).</p>
+                        <footer class="blockquote-footer"><i class="fa-solid fa-phone"></i> Hotline  <cite title="Source Title">19000098</cite></footer>
+                      </blockquote>
+                    </div>
+                </div>
+                <div class="card cardhethong">
+                    <div class="card-header tenhethong">
+                      <i class="fa-solid fa-location-dot"></i> Cửa Hàng Phạm Văn Hai, Tân Bình (7H-20H30; T2 - CN)
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0 diachihethong">
+                        <p>15/10 Phạm Văn Hai, P1, Quận Tân BÌnh, TPHCM.</p>
+                        <footer class="blockquote-footer"><i class="fa-solid fa-phone"></i> Hotline  <cite title="Source Title">19000098</cite></footer>
+                      </blockquote>
+                    </div>
+                </div>
+                <div class="card cardhethong">
+                    <div class="card-header tenhethong">
+                      <i class="fa-solid fa-location-dot"></i> [Điểm Bán Hải Sản Sống] Vinmart - Vincom Megamall Thảo Điền - KV Thủy Hải Sản
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0 diachihethong">
+                        <p>Số 161 Xa Lộ Hà Nội, Phường Thảo Điền, Quận 2, TP HCM.</p>
+                        <footer class="blockquote-footer"><i class="fa-solid fa-phone"></i> Hotline  <cite title="Source Title">19000098</cite></footer>
+                      </blockquote>
+                    </div>
+                </div>
+                <div class="card cardhethong">
+                    <div class="card-header tenhethong">
+                      <i class="fa-solid fa-location-dot"></i> Quote
+                    </div>[Điểm Bán Hải Sản Sống] Aeon Bình Dương - KV Thủy Hải Sản Tầng Trệt TTTM
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0 diachihethong">
+                        <p>Số 01 Đại lộ Bình Dương, Khu phố Bình Giao, Thị xã Thuận An, Tỉnh Bình Dương..</p>
+                        <footer class="blockquote-footer"><i class="fa-solid fa-phone"></i> Hotline  <cite title="Source Title">19000098</cite></footer>
+                      </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="hethong__right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15690.591186936363!2d108.92776724965435!3d10.52838173025046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3177b108010aef0b%3A0xaea381218d09f944!2zRGFvIFBodSBRdWksIELDrG5oIFRodeG6rW4sIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1684342032277!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    
+    <hr class="footer__hr">
+    <footer id="footer">
+        <div class="footer__doitac">
+            <h3 class="doitac__title">Đối tác của BaoBaoShop</h3>
+            <div class="slideshow3 slideshow3-doitac" data-option="loop:true,">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://www.aeon.com.vn/" target="_blank" class="doitac__link"><img src="https://file.hstatic.net/1000030244/file/aeon_da717c7c652740bdba61d267edd87a94.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://vincom.com.vn/" target="_blank" class="doitac__link"><img src="https://file.hstatic.net/1000030244/file/vinmart_ae238b9dd7704d50868b1e16ebd95c48.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://tiki.vn/" target="_blank" class="doitac__link"><img src="https://file.hstatic.net/1000030244/file/logo_tiki-31_881b1de0fcdc40f0a1cd459869de6136.png" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.grab.com/vn/mart/" target="_blank" class="doitac__link"><img src="https://file.hstatic.net/1000030244/file/z3119419235383_cb20d569c0b62534814b91fece6b5790_6200c656bc294e71bebba4bf7b207d2f.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://shopeefood.vn/" target="_blank" class="doitac__link"><img src="https://file.hstatic.net/1000030244/file/shopee-food_cfc2fd661ad8433f86b82f80fca34368.png" alt=""></a>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <a href="https://baobaoshop790.blogspot.com/" target="_blank" class="footer__logo-mb"><img src="./assets/img/baobaosystem.png" alt="" class="footer__logo"></a>
+        <div class="footer__main">
+            <a href="https://baobaoshop790.blogspot.com/" target="_blank" class="footer__logo-link"><img src="./assets/img/baobaosystem.png" alt="" class="footer__logo"></a>
+            
+            <div class="footer__info">
+                <div class="footer__title-main">Thông tin</div>
+                <ul>
+                    <li class="footer__list-link"><a href="./all-production.html" class="footer__link">Góc Ẩm Thực</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Chính Sách/Ưu Đãi</a></li>
+                    <li class="footer__list-link"><a href="./hethongcuahang.html" class="footer__link">Hệ Thống Cửa Hàng</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Chương Trình KHTT</a></li>
+                    <li class="footer__list-link"><a href="./feedback.html" class="footer__link">FeedBack</a></li>
+                    <li class="footer__list-link"><a href="./all-production.html" class="footer__link">Tươi Sống Mỗi Ngày</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <div class="footer__title-main">Chính Sách</div>
+                <ul>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Giao nhận hàng</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Hướng dẫn đặt hàng</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Chính sách đổi trả hàng</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Chính sách giải quyết khiếu nại</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Cam kết chất lượng</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <div class="footer__title-main">Giới Thiệu</div>
+                <ul>
+                    <li class="footer__list-link"><a href="./aboutus.html" class="footer__link">Về BAOBAOSHOP</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Chính Sách & Quy Định Chung</a></li>
+                    <li class="footer__list-link"><a href="./chinhsach.html" class="footer__link">Chính Sách Bảo Mật</a></li>
+                    <li class="footer__list-link"><a href="./aboutus.html" class="footer__link">Liên hệ</a></li>
+                    <li class="footer__list-link"><a href="./tuyendung.html" class="footer__link">Tuyển Dụng</a></li>
+                </ul>
+            </div>
+            <div class="footer__info">
+                <div class="footer__title-main">Kết nối với chúng tôi</div>
+                <ul>
+                    <li class="footer__list-link"><a href="http://baobaoshop790.blogspot.com/" target="_blank" class="footer__link"><i class="fa-solid fa-blog"></i>Blog Cá Nhân</a></li>
+                    <li class="footer__list-link"><a href="https://www.facebook.com/bao.no.790" target="_blank" class="footer__link"><img src="https://file.hstatic.net/1000030244/file/icon-fb_72784f597e594718a4e475d81322a9a7.png" alt=""> Bui Quoc Bao</a></li>
+                    <li class="footer__list-link"><a href="https://youtube.com/@baobaoshop" target="_blank" class="footer__link"><img src="https://file.hstatic.net/1000030244/file/icon-youtube_b3fb7a25bc7040238befc72fed750f30.png" alt=""> BaoBaoVlogs</a></li>
+                    <li class="footer__list-link"><a href="https://www.tiktok.com/@baobaoshop790" target="_blank" class="footer__link"><img src="https://file.hstatic.net/1000030244/file/icon-tiktok_a92ef2a8ab24449c8ba8ddf3732ff2ed.png" alt=""> BaoBaoTravels</a></li>
+                    <li class="footer__list-link"><a href="https://twitter.com/BaoBaoShopp" target="_blank" class="footer__link"><img src="https://play-lh.googleusercontent.com/x3XxTcEYG6hYRZwnWAUfMavRfNNBl8OZweUgZDf2jUJ3qjg2p91Y8MudeXumaQLily0" alt=""> BaoBaoNews</a></li>
+                    <li class="footer__list-link"><a href="https://zalo.me/0397711024" target="_blank" class="footer__link"><img src="https://file.hstatic.net/1000030244/file/zalo-icon_60bea3a4d9cd401ca425a7789196e651.png" alt="0878136222">BaoBaoHotlines</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            &copy; BÙI QUỐC BẢO - 2001215608
+        </div>
+    </footer>
+    <div id="top">
+        <a href="#"><i class="fa-solid fa-circle-up"></i></a>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://themehappy.com/html/rapti/rapti/assets/js/main.js"></script>
+    <script src="https://manuel.pinto.dev"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/ome.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
