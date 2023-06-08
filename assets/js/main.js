@@ -1,4 +1,4 @@
-alert("BÙI QUỐC BẢO - 2001215608")
+
 
 var countDownDate = new Date("May 19, 2023 23:59:59").getTime();
 
